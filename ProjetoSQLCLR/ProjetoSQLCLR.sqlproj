@@ -74,6 +74,7 @@
     <Folder Include="Classes\Models\Calendario" />
     <Folder Include="Procedures" />
     <Folder Include="Functions" />
+    <Folder Include="Classes\Models\Moeda" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Enum\MethodsHTTP.cs" />
@@ -86,6 +87,8 @@
     <Compile Include="Classes\Constantes\ConstanteTokenFeriados.cs" />
     <Compile Include="Classes\Constantes\ConstanteConexao.cs" />
     <Compile Include="Classes\JSON\JsonConverter.cs" />
+    <Compile Include="Functions\fncConverteMoeda.cs" />
+    <Compile Include="Classes\Models\Moeda\Moeda.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
